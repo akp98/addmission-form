@@ -1,0 +1,82 @@
+html, body {
+
+    margin:0;
+    
+    height:100%;
+    
+    }
+    div {
+
+        /* width:100%;
+        
+        height:100%;
+        
+        border:25px groove rgb(202, 79, 79); */
+        
+        background-image: url(./webimg/job.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }   
+.id{
+    width: 35px;
+    height: 35px;
+    accent-color: lightblue;
+    align-content: center;
+}
+.dv{
+    border: 2px solid gray;
+}
+.in{
+    width: 500px;
+    height: 50px;
+    border: 2px solid red;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(147, 68, 68);
+    padding-left: 60px;
+    background: url(boy.png) no-repeat 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* border-bottom: none; */
+
+ }
+ .mo{
+    background: url(mother.png) no-repeat 10px 10px;
+ }
+ .fa{
+    background: url(dad.png) no-repeat 10px 10px;
+ }
+ .ad{
+    background: url(address.png) no-repeat 10px 10px;
+ }
+ .ph{
+    background: url(phone.png) no-repeat 10px 10px;
+ }
+ .em{
+    background: url(email.png) no-repeat 10px 10px;
+ }
+ .in:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-bottom: 2px solid green;
+    outline-style: none;
+    width: 510px;
+ }
+ .in::placeholder{
+   color: rgb(187, 174, 174);
+ }
+ .bt{
+    background-color: rgb(236, 13, 13);
+    font-size: larger;
+ }
+ .lb{
+    font-size: 37px;
+    font-weight: 600;
+ }
+ .se{
+    font-size: 30px;
+ }
